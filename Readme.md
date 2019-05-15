@@ -1,3 +1,4 @@
+#全是英文的，我至少可以翻译抢救下。
 # Node.js Style Guide
 
 This is a guide for writing consistent and aesthetically pleasing node.js code.
@@ -170,7 +171,7 @@ while (keys.length) {
 ## Naming Conventions
 
 ### Use lowerCamelCase for variables, properties and function names
-
+使用峰驼法 命名函数，变量，属性。
 Variables, properties and function names should use `lowerCamelCase`.  They
 should also be descriptive. Single character variables and uncommon
 abbreviations should generally be avoided.
@@ -188,7 +189,7 @@ var admin_user = db.query('SELECT * FROM users ...');
 ```
 
 ### Use UpperCamelCase for class names
-
+类名用大写
 Class names should be capitalized using `UpperCamelCase`.
 
 *Right:*
@@ -206,7 +207,7 @@ function bank_Account() {
 ```
 
 ### Use UPPERCASE for Constants
-
+常量用大写
 Constants should be declared as regular variables or static class properties,
 using all uppercase letters.
 
